@@ -24,3 +24,11 @@ body{
     font-size: 20px; 
     text-align: center;
   }
+
+  .line-1 {
+    font-size: 75px;
+  }
+
+  .line-2 {
+    font-size: 40px;
+  }
