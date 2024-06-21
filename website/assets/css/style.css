@@ -1,3 +1,33 @@
 body{
     background: #BDBDBD;
 }
+
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: #000000; 
+    color: #fff; 
+    padding: 10px 20px; 
+    text-align: center;
+  }
+
+  .line-1 {
+    font-size: 75px;
+  }
+
+  .line-2 {
+    font-size: 40px;
+  }
